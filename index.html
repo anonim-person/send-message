@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formular de logare...</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="imgs/untitled.png">
+    <script src="js/script.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <form method="post">
+      <div class="container">
+        <h2>Trimite un email...</h2>
+        <input type="text" name="nume" placeholder="Numele dvs..." id="name"><br>
+        <input type="email" name="email" placeholder="Emailul dvs..." id="email"><br>
+        <input type="text" name="subject" placeholder="Subiectul mesajului dvs..." id="subject"><br>
+        <textarea name="mesaj" placeholder="Mesajul dvs..." id="message"></textarea><br>
+        <input type="submit" class="btn_send" name="send" onclick="sendMail()" value="Trimite">
+      </div>
+    </form>
+  </body>
+</html>
